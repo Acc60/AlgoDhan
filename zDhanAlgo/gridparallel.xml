@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite" thread-count="5">
+  <test name="Testchrome">
+   <parameter name="os" value="windods"/>
+   <parameter name="browser" value="chrome"/>
+  <classes>
+  <class name="com.test1"/>
+  </classes>
+  
+  </test> <!-- Test -->
+  
+  
+  <test name="Testedge">
+   <parameter name="os" value="windows"/>
+   <parameter name="browser" value="edge"/>
+   
+   <classes>
+    <class name="com.test1"/>
+    
+   </classes>
+  
+  
+  </test>
+  
+  
+</suite> <!-- Suite -->
+
